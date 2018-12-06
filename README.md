@@ -29,16 +29,6 @@ Holá.
 
 Just use `---` to split content into different slides.
 
-## Demo
-
-Visit [reveal-hugo.dzello.com](https://reveal-hugo.dzello.com/) to see a presentation created with this theme and learn more about what you can do. Jump to the [exampleSite](exampleSite) folder in this repository to see the source code for that presentation.
-
-For a full-length blog post about reveal-hugo, checkout [Harness the Power of Static Site Generators to Create Presentations](https://forestry.io/blog/harness-the-power-of-static-to-create-presentations/) on the [Forestry.io blog](https://forestry.io/blog).
-
-## Boilerplate
-
-If you want to start creating a presentation right away, clone the [programming-quotes](https://github.com/dzello/programming-quotes) repository and start hacking.
-
 ## Tutorial
 
 You should be able to complete this section with no prior knowledge of Hugo or Reveal.js. At the end, you'll have a working presentation with instant reloading.
@@ -364,7 +354,7 @@ If you need to add something to the HTML layout, you can create partials that li
 This is the recommended way to add custom CSS and JavaScript to each presentation.
 
 > 💡 Tip: In Hugo, partials live in the `layouts` folder:
-> 
+>
 > For example, if you have HTML that is to be placed before every presentation, this would be the structure:
 > ```
 > - layouts
