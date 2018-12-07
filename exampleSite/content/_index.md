@@ -1,8 +1,13 @@
 +++
 title = "Example of a section presentation"
 outputs = ["Reveal"]
+
 [reveal_hugo]
-theme = "moon"
+custom_theme = "css/reveal.css"
+margin = 0.2
+highlight_theme = "qtcreator_dark"
+transition = "slide"
+transition_speed = "fast"
 +++
 
 # Section Presentation
@@ -16,3 +21,5 @@ Section presentations are completely separate from the root presentation and eac
 ---
 
 Additional content files can be placed in the section and will be added to the presentation in the order of their weight.
+
+[a](b)
