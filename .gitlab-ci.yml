@@ -6,10 +6,10 @@ variables:
 
 pages:
   script:
-  - hugo -s exampleSite
+  - hugo -s exampleSite -d ../public -b "/themen-hugo-35c3-reveal/"
   artifacts:
     paths:
-    - exampleSite/public
+    - public
   only:
   - master
 
